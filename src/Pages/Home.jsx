@@ -4,6 +4,7 @@ import SearchSection from "../components/SearchSection";
 import Services from "../components/Services";
 import Industries from "../components/Industries";
 import FeaturedExperts from "../components/FeaturedExperts";
+import HowItWorks from "../components/HowItWorks";
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       <Services />
       <Industries />
       <FeaturedExperts />
+      <HowItWorks />
     </>
   );
 }
