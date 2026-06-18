@@ -6,6 +6,7 @@ import Industries from "../components/Industries";
 import FeaturedExperts from "../components/FeaturedExperts";
 import HowItWorks from "../components/HowItWorks";
 import Testimonials from "../components/Testimonials";
+import FAQ from "../components/FAQ";
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
       <FeaturedExperts />
       <HowItWorks />
       <Testimonials />
+      <FAQ />
     </>
   );
 }
