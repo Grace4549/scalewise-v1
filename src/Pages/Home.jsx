@@ -7,6 +7,7 @@ import FeaturedExperts from "../components/FeaturedExperts";
 import HowItWorks from "../components/HowItWorks";
 import Testimonials from "../components/Testimonials";
 import FAQ from "../components/FAQ";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -20,6 +21,7 @@ function Home() {
       <HowItWorks />
       <Testimonials />
       <FAQ />
+      <Footer />
     </>
   );
 }
