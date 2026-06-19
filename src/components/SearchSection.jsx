@@ -3,14 +3,14 @@ import Container from "./ui/Container";
 import SectionTitle from "./ui/SectionTitle";
 
 const popularIndustries = [
-  "Agriculture",
-  "Beauty",
-  "Construction",
-  "Finance",
-  "Healthcare",
-  "Restaurants",
-  "Retail",
-  "Technology",
+  "Agriculture & Agribusiness",
+  "Beauty & Salons",
+  "Construction & Contracting",
+  "Financial Services",
+  "Healthcare & Clinics",
+  "Restaurants & Food Business",
+  "E-commerce & Retail",
+  "Tech Startups",
 ];
 
 export default function SearchSection() {
@@ -42,7 +42,7 @@ export default function SearchSection() {
             {popularIndustries.map((industry) => (
               <button
                 key={industry}
-                className="rounded-full border border-slate-300 bg-white px-5 py-2 text-sm font-medium transition hover:border-emerald-600 hover:text-emerald-600"
+                className="rounded-full border border-slate-300 bg-white px-5 py-2 text-sm font-medium transition hover:border-gold-500 hover:text-gold-700"
               >
                 {industry}
               </button>

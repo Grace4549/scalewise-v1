@@ -6,25 +6,25 @@ import Button from "./ui/Button";
 
 const experts = [
   {
-    name: "Sarah Mitchell",
-    industry: "Business Strategy",
-    experience: "15 Years",
+    name: "Amara Njoki",
+    industry: "Beauty & Salons",
+    experience: "8 Years",
     rating: "4.9",
-    price: "$75",
+    price: "KES 3,500",
   },
   {
-    name: "James Carter",
-    industry: "Finance",
-    experience: "12 Years",
-    rating: "4.8",
-    price: "$65",
-  },
-  {
-    name: "Emily Brown",
-    industry: "Marketing",
-    experience: "10 Years",
+    name: "Cynthia Waweru",
+    industry: "E-commerce & Retail",
+    experience: "7 Years",
     rating: "5.0",
-    price: "$70",
+    price: "KES 5,000",
+  },
+  {
+    name: "Felix Otieno",
+    industry: "Tech Startups",
+    experience: "14 Years",
+    rating: "4.8",
+    price: "KES 7,500",
   },
 ];
 
@@ -49,7 +49,7 @@ export default function FeaturedExperts() {
                 {expert.name}
               </h3>
 
-              <p className="mt-1 text-center text-emerald-600">
+              <p className="mt-1 text-center text-gold-700">
                 {expert.industry}
               </p>
 
@@ -66,7 +66,7 @@ export default function FeaturedExperts() {
                     <Star
                       size={16}
                       fill="currentColor"
-                      className="text-yellow-500"
+                      className="text-gold-500"
                     />
                     {expert.rating}
                   </span>

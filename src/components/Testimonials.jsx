@@ -43,7 +43,7 @@ export default function Testimonials() {
                     key={i}
                     size={18}
                     fill="currentColor"
-                    className="text-yellow-500"
+                    className="text-gold-500"
                   />
                 ))}
               </div>
@@ -57,7 +57,7 @@ export default function Testimonials() {
                   {item.name}
                 </h4>
 
-                <p className="text-sm text-emerald-600">
+                <p className="text-sm text-gold-700">
                   {item.company}
                 </p>
               </div>

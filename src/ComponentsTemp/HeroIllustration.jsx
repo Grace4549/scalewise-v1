@@ -18,20 +18,20 @@ export default function HeroIllustration() {
         <div className="mb-6 flex items-center justify-between">
           <div>
             <p className="text-sm text-slate-500">
-              Growth Strategy Session
+              Expert Session
             </p>
 
             <h3 className="text-xl font-bold text-slate-900">
-              Amara Njoki
+              Sarah Mitchell
             </h3>
 
-            <p className="text-sm text-gold-700">
-              Beauty & Salons Expert
+            <p className="text-sm text-emerald-600">
+              Business Growth Expert
             </p>
           </div>
 
-          <div className="rounded-full bg-gold-50 p-3">
-            <Briefcase className="text-gold-600" />
+          <div className="rounded-full bg-emerald-100 p-3">
+            <Briefcase className="text-emerald-600" />
           </div>
         </div>
 
@@ -43,23 +43,23 @@ export default function HeroIllustration() {
               <span>60 Minute Session</span>
             </div>
 
-            <span className="font-semibold">KES 3,500</span>
+            <span className="font-semibold">$75</span>
           </div>
 
           <div className="flex items-center justify-between rounded-xl bg-slate-50 p-4">
             <div className="flex items-center gap-3">
               <Star
                 size={20}
-                className="text-gold-500"
+                className="text-yellow-500"
                 fill="currentColor"
               />
               <span>4.9 Rating</span>
             </div>
 
-            <span>87 Reviews</span>
+            <span>287 Reviews</span>
           </div>
 
-          <button className="mt-4 w-full rounded-xl bg-navy-900 py-4 font-semibold text-white hover:bg-navy-600">
+          <button className="mt-4 w-full rounded-xl bg-emerald-600 py-4 font-semibold text-white hover:bg-emerald-700">
             Book Session
           </button>
 
@@ -71,7 +71,7 @@ export default function HeroIllustration() {
       <div className="absolute -left-4 top-20 rounded-2xl border border-slate-200 bg-white p-4 shadow-xl">
 
         <div className="flex items-center gap-3">
-          <TrendingUp className="text-gold-600" />
+          <TrendingUp className="text-emerald-600" />
 
           <div>
             <p className="text-xs text-slate-500">
@@ -91,7 +91,7 @@ export default function HeroIllustration() {
       <div className="absolute -right-4 bottom-24 rounded-2xl border border-slate-200 bg-white p-4 shadow-xl">
 
         <div className="flex items-center gap-3">
-          <Users className="text-navy-600" />
+          <Users className="text-blue-600" />
 
           <div>
             <p className="text-xs text-slate-500">
@@ -108,7 +108,7 @@ export default function HeroIllustration() {
 
       {/* Floating Card */}
 
-      <div className="absolute right-12 top-6 flex items-center gap-2 rounded-full bg-gold-500 px-4 py-2 text-sm font-semibold text-navy-900 shadow-xl">
+      <div className="absolute right-12 top-6 flex items-center gap-2 rounded-full bg-emerald-600 px-4 py-2 text-sm font-semibold text-white shadow-xl">
 
         <CheckCircle size={18} />
 

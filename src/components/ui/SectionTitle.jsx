@@ -6,7 +6,7 @@ export default function SectionTitle({
   return (
     <div className="mx-auto mb-16 max-w-3xl text-center">
       {eyebrow && (
-        <p className="mb-3 font-semibold uppercase tracking-widest text-emerald-600">
+        <p className="mb-3 font-semibold uppercase tracking-widest text-gold-700">
           {eyebrow}
         </p>
       )}

@@ -6,7 +6,7 @@ export const brand = {
   description:
     "Connect with verified business experts for consultancy, business coaching and business wellness.",
 
-  primary: "#059669",
+  primary: "#D4A017",
 
   dark: "#0F172A",
 };

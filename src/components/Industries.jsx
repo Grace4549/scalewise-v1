@@ -2,26 +2,19 @@ import Container from "./ui/Container";
 import SectionTitle from "./ui/SectionTitle";
 
 const industries = [
-  "Agriculture",
-  "Architecture",
-  "Automotive",
-  "Beauty",
-  "Construction",
-  "Education",
-  "Finance",
-  "Healthcare",
-  "Hospitality",
-  "Information Technology",
-  "Legal",
-  "Logistics",
-  "Manufacturing",
-  "Marketing",
-  "Professional Services",
+  "Agriculture & Agribusiness",
+  "Beauty & Salons",
+  "Construction & Contracting",
+  "Education & Training",
+  "E-commerce & Retail",
+  "Financial Services",
+  "Healthcare & Clinics",
+  "Hospitality & Tourism",
+  "Logistics & Transport",
+  "Manufacturing & SMEs",
   "Real Estate",
-  "Restaurants",
-  "Retail",
-  "Tourism",
-  "Wholesale",
+  "Restaurants & Food Business",
+  "Tech Startups",
 ].sort();
 
 export default function Industries() {
@@ -38,7 +31,7 @@ export default function Industries() {
           {industries.map((industry) => (
             <button
               key={industry}
-              className="rounded-2xl border border-slate-200 bg-white p-5 text-left font-semibold text-slate-700 transition-all duration-200 hover:-translate-y-1 hover:border-emerald-500 hover:shadow-lg hover:text-emerald-600"
+              className="rounded-2xl border border-slate-200 bg-white p-5 text-left font-semibold text-slate-700 transition-all duration-200 hover:-translate-y-1 hover:border-gold-500 hover:shadow-lg hover:text-gold-700"
             >
               {industry}
             </button>

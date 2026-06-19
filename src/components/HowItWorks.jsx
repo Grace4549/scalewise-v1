@@ -41,13 +41,13 @@ export default function HowItWorks() {
             return (
               <Card key={step.title} className="relative text-center">
 
-                <div className="absolute -top-5 left-1/2 flex h-10 w-10 -translate-x-1/2 items-center justify-center rounded-full bg-emerald-600 font-bold text-white">
+                <div className="absolute -top-5 left-1/2 flex h-10 w-10 -translate-x-1/2 items-center justify-center rounded-full bg-gold-500 font-bold text-navy-900">
                   {index + 1}
                 </div>
 
                 <div className="mt-6 flex justify-center">
-                  <div className="rounded-2xl bg-emerald-50 p-4">
-                    <Icon size={34} className="text-emerald-600" />
+                  <div className="rounded-2xl bg-gold-50 p-4">
+                    <Icon size={34} className="text-gold-600" />
                   </div>
                 </div>
 
